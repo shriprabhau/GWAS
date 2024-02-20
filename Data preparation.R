@@ -17,3 +17,6 @@ MVP.Data(fileNum="numeric.txt",
 
 #check your geno.map file, to have the header in caps - SNP CHROM and POS 
 #else it reads it as another marker and throws the error markers in genotype and map don't match, which is extremely weird if you ask me 
+#DO NOT name your files with numbers eg mvp50. The MVP command cannot find these files and gives an error of 
+
+
